@@ -1,0 +1,14 @@
+{
+  "name": "hello-world-app",
+  "version": "1.0.0",
+  "description": "Lambda handler for Hello World API",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# TypeScript
+*.js
+*.d.ts
+*.js.map
+!jest.config.js
+
+# CDK
+infra/cdk.out/
+infra/.cdk.staging/
+
+# Build output
+app/dist/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
